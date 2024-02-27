@@ -7,9 +7,10 @@ def countdown(r:int):
         print(i)
         time.sleep(1)
 
+# One tile up from Harp's click (see sample.png)
 HARP_BOX = (835, 452, 1084, 485)
 
-# [ScanPos]
+# [ScanPos, Color]
 BOARD_POSITIONS = [
     [(17, 8), "de90a5"],
     [(52, 8), "aea32b"],
